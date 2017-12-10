@@ -1,0 +1,257 @@
+html,body
+{	
+  height:100%;
+  margin:0;
+  padding:0;
+}
+	
+	#bloc_page
+	{
+		width: auto;
+		margin: auto;
+	}
+
+	video 
+		{
+		 	position: fixed;
+			z-index: -1;
+			min-width: 100%;
+			min-height: 100%;
+		}	
+		
+/* #B68E04 = orange*/
+/* #42EDF8 = bleu claire*/
+/* #BCEDFD = blanc doux 2*/
+/* #B1D8F1 = blanc doux*/
+/* #6FABC5 = pour ecrire sur du sombre*/
+
+
+
+
+
+		/* header*/
+		/* header*/
+		/* header*/
+		header
+			{
+				height: 200px;
+				align-items: center;
+				font-size: 2em;
+				color: white;
+				display: flex;
+				justify-content: space-between;
+				padding: 10px;
+			}
+
+
+			header #name
+			{
+				color: #55E6DF; /* Turquoise */;
+			}
+			header p
+			{
+				align-self: flex-end;
+				color: #BCEDFD;
+			}
+			
+			header img
+			{
+			
+				height: 200px;
+				width: 115px; 
+			}
+
+		
+		/* Nav & contenu*/
+		/* Nav & contenu*/
+		/* Nav & contenu*/		
+		header + #nav_cont
+			{
+				display: flex;
+				
+			}
+			/* BARRE DE NAV*/
+			nav
+				{
+					min-height:100%;
+					min-width: 235px;
+					color: white;
+					text-align: left;
+					display: flex;
+					flex-direction: column;
+
+				}
+				nav a
+					{
+						border-radius: 10px 25px;;
+						color: black;
+						text-decoration: none;	
+						padding: 4px;
+						background-color: #55E6DF; /*turquoise */ 
+					}
+					a:hover
+					{
+						color: black;
+						background-color: #BCEDFD; /* blanc doux*/ 
+					}
+
+					
+				
+				nav li	
+				{
+					
+					height: 50px;
+					margin: 10px;
+
+				}
+
+				nav #hip
+				{
+					flex: 1;
+				}
+				nav #hip2
+				{
+					border-radius: 20px 100px;
+					border: solid #55E6DF 2px;
+					position: fixed;
+					
+					width: 229px;
+				}
+				nav #hop
+				{
+					
+				}
+				nav #hop2
+				{
+					text-align: center;
+					margin: 10px;
+				}
+			/* CONTENUS */
+			section article
+				{
+					display: flex;
+					border-radius: 20px;
+					color: #6FABC5; /* pour ecrire sur du sombre*/
+					background-color: rgba(0, 0, 0, 0.6);		
+				}	
+
+				section article ul
+				{
+					color: #B68E04;
+				}
+				.clair
+				{
+					color: #6FABC5; /* pour ecrire sur du sombre*/
+				}
+
+				section	article a
+				{
+					color: #6FABC5;
+				}
+				section	article a:hover
+				{
+					color: #B68E04;
+					background-color: rgba(0, 0, 0, 0.6); 	
+				}
+				article  #article1 h2, article #article2 h2
+				{
+					font-size: 4em;
+					text-decoration: underline;
+					color: #B1D8F1;
+				}
+				article #article1 h3,article #article2 h3
+				{
+					font-size: 3em;
+					text-decoration: underline;
+					color: #B68E04;
+				}
+				article #article1 h4,article #article2 h4
+				{
+					font-size: 2em;
+					text-decoration: underline;
+					color: #B1D8F1;
+				}
+				article #article1 p,article #article2 p
+				{
+					font-size: 1.5em;
+				}
+				article #article2 li
+				{
+					font-size: 1.5em;
+				}
+				#article1
+					{
+						width: 50%;
+						padding: 0.5%;
+						margin: 0.5%; 
+					}
+					.quisuisje
+					{
+						
+						font-size: 2em;
+						display: inline-block;
+						padding: 0.5%;
+						margin: 0.5%; 
+					}
+					.quisuisje2
+					{
+						border-radius: 50px;
+						margin: 0.5%;
+						padding: 0.5%;
+					}
+
+				#article2
+					{
+						width: 50%;
+						padding: 0.5%;
+						margin: 0.5%; 
+					}
+					.quesuisje
+					{
+						
+						font-size: 2em;
+						display: inline-block;
+						padding: 0.5%;
+						margin: 0.5%; 
+					}
+					.quesuisje2
+					{
+						border-radius: 50px;
+						padding: 0.5%;
+						margin: 0.5%; 
+					}
+					.quesuisje3
+					{
+						padding: 0.5%;
+						margin: 0.5%; 
+					}
+					.quesuisje4
+					{border: solid black 1px;}
+					.quesuisje5
+					{border: solid blue 1px;}
+
+
+		/* Footer */
+		/* Footer */
+		/* Footer */
+		footer
+			{
+				padding: 1px;
+				background-color: black;
+				color: white;
+				text-align: center;
+			}
+
+.white
+{
+	color: white;
+}
+
+.indent 
+{
+  text-indent: 40px;
+}
+
+
+
+
