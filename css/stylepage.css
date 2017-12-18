@@ -9,6 +9,7 @@ html,body
 	{
 		width: auto;
 		margin: auto;
+	
 	}
 
 	video 
@@ -48,6 +49,20 @@ html,body
 			{
 				color: #55E6DF; /* Turquoise */;
 			}
+			header #mail
+			{
+				color: #55E6DF; /* Turquoise */;
+			}
+			header #mail 
+			{
+				text-decoration: none;
+			}
+			header #mail:hover
+			{
+				background-color: rgba(0,0,0,0.6);
+
+			}
+
 			header p
 			{
 				align-self: flex-end;
@@ -114,7 +129,6 @@ html,body
 					border-radius: 20px 100px;
 					border: solid #55E6DF 2px;
 					position: fixed;
-					
 					width: 229px;
 				}
 				nav #hop
@@ -130,7 +144,7 @@ html,body
 			section article
 				{
 					display: flex;
-					border-radius: 20px;
+					border-radius: 50px;
 					color: #6FABC5; /* pour ecrire sur du sombre*/
 					background-color: rgba(0, 0, 0, 0.6);		
 				}	
@@ -139,6 +153,7 @@ html,body
 				{
 					color: #B68E04;
 				}
+
 				.clair
 				{
 					color: #6FABC5; /* pour ecrire sur du sombre*/
@@ -153,23 +168,28 @@ html,body
 					color: #B68E04;
 					background-color: rgba(0, 0, 0, 0.6); 	
 				}
+
 				article  #article1 h2, article #article2 h2
 				{
+					
 					font-size: 4em;
 					text-decoration: underline;
 					color: #B1D8F1;
+					margin: 0.5%;
 				}
 				article #article1 h3,article #article2 h3
 				{
 					font-size: 3em;
 					text-decoration: underline;
 					color: #B68E04;
+					margin: 0.5%;
 				}
 				article #article1 h4,article #article2 h4
 				{
 					font-size: 2em;
 					text-decoration: underline;
 					color: #B1D8F1;
+					margin: 0.5%;
 				}
 				article #article1 p,article #article2 p
 				{
@@ -182,7 +202,7 @@ html,body
 				#article1
 					{
 						width: 50%;
-						padding: 0.5%;
+						padding: 5px;
 						margin: 0.5%; 
 					}
 					.quisuisje
@@ -203,14 +223,11 @@ html,body
 				#article2
 					{
 						width: 50%;
-						padding: 0.5%;
+						padding: 5px;
 						margin: 0.5%; 
 					}
 					.quesuisje
 					{
-						
-						font-size: 2em;
-						display: inline-block;
 						padding: 0.5%;
 						margin: 0.5%; 
 					}

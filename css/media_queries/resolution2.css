@@ -1,0 +1,76 @@
+h1
+{
+	
+}
+
+#bloc_page
+	{
+		width: auto;
+		margin: auto;
+	}
+
+	header
+			{
+				
+				height: 300px;
+				color: white;
+				display: flex;
+				flex-direction: column;
+				padding: 3px;
+			}
+
+			header #name
+			{
+				
+				color: #55E6DF; /* Turquoise */;
+			}
+			header p
+			{
+				
+				align-self: center;
+			}
+			
+			header img
+			{
+				
+				display: none;
+			}
+
+	section article
+			{
+				
+				flex-direction: column-reverse;	
+				margin: 0.5%.
+			}
+			#article1
+					{
+						width: 100%;
+						padding: 0.5%;
+						margin: 0.5%; 
+						text-align: center;
+					}
+			#article2
+					{
+						width: 100%;
+						padding: 0.5%;
+						margin: 0.5%; 
+						text-align: center;
+					}
+
+		ul
+		{
+			list-style-type: none;
+		}
+
+
+
+		.alignement_gauche
+		{
+			text-align: left;
+		}
+
+
+.effacer
+{
+	display: none;
+}
